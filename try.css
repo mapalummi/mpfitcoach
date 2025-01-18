@@ -1,0 +1,161 @@
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  margin: 0;
+}
+.headline {
+  color: brown;
+  font-size: 80px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 50px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.headline2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 80px;
+}
+.headline3 {
+  color: brown;
+  font-size: 30px;
+  text-align: center;
+}
+.headline4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 25px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.text {
+  color: black;
+  margin: 10px;
+  line-height: 1.5;
+}
+.logo {
+  height: 80px;
+  width: 350px;
+}
+.picture {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  top: 5px;
+  left: 25px;
+  right: 50px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.parent {
+  position: relative;
+}
+.container1 {
+  position: relative;
+  margin: 10px;
+  line-height: 2;
+}
+.marco {
+  color: brown;
+  font-size: 35px;
+  text-align: center;
+}
+.coach-container {
+  display: flex;
+}
+.container2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 3;
+}
+.container3 {
+  position: relative;
+  margin: 30px;
+  font-size: 18px;
+  align-items: center;
+  line-height: 1.5;
+}
+.container4 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  line-height: 2;
+  bottom: 50px;
+}
+.menu {
+  color: brown;
+  text-decoration: none;
+  margin-right: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.menu:hover {
+  text-decoration: underline;
+}
+.menu-button {
+  background-color: whitesmoke;
+  color: brown;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.button {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: antiquewhite;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.last-image {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(0.5);
+}
+.footer {
+  background-color: darkgrey;
+  height: 100px;
+}
+/* Basis-Styles für größere Bildschirme */
+body {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Styles für kleine Bildschirme (z. B. Smartphones) */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
