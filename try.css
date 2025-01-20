@@ -138,24 +138,54 @@ body {
   background-color: darkgrey;
   height: 100px;
 }
-/* Basis-Styles für größere Bildschirme */
-body {
-  font-size: 16px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-/* Styles für kleine Bildschirme (z. B. Smartphones) */
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
   body {
-    font-size: 14px;
+    font-size: 16px; /* Kleinere Schriftgröße */
+  }
+  .headline {
+    font-size: 40px; /* Überschrift verkleinern */
+    left: 0; /* Zentrieren */
+    text-align: center; /* Bessere Darstellung */
+  }
+  .headline2,
+  .headline4 {
+    font-size: 20px; /* Kleinere Schriftgrößen */
+    height: auto; /* Höhe flexibel */
+    text-align: center;
+  }
+  .text,
+  .container1,
+  .container3 {
+    margin: 5px; /* Weniger Abstand */
+    font-size: 14px; /* Kleinere Schriftgröße */
+    line-height: 1.2; /* Engerer Zeilenabstand */
+  }
+  .logo {
+    height: 50px; /* Verkleinertes Logo */
+    width: auto; /* Proportionen beibehalten */
+  }
+  .picture,
+  .last-image {
+    width: 100%; /* Bild an Breite anpassen */
+    height: auto; /* Verhältnis beibehalten */
+  }
+  .container,
+  .container2,
+  .container4 {
+    flex-wrap: wrap; /* Inhalte umbrechen */
+    justify-content: center; /* Inhalte zentrieren */
+  }
+  .menu {
+    margin-right: 10px; /* Weniger Abstand */
+  }
+  .menu-button,
+  .button {
+    font-size: 14px; /* Kleinere Knöpfe */
+    padding: 5px; /* Weniger Polsterung */
+  }
+  .footer {
+    height: auto; /* Höhe flexibel */
+    padding: 10px; /* Abstand innerhalb des Fußbereichs */
+    text-align: center; /* Zentrierter Inhalt */
   }
 }
