@@ -49,6 +49,10 @@ body {
   width: 100%;
   height: auto;
 }
+.picture3 {
+  width: 50%;
+  height: auto;
+}
 .container {
   position: relative;
   top: 5px;
