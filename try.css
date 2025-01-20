@@ -45,6 +45,10 @@ body {
   max-width: 100%;
   height: auto;
 }
+.picture2 {
+  width: 100%;
+  height: auto;
+}
 .container {
   position: relative;
   top: 5px;
@@ -157,7 +161,7 @@ body {
   .container1,
   .container3 {
     margin: 5px; /* Weniger Abstand */
-    font-size: 14px; /* Kleinere Schriftgröße */
+    font-size: 12px; /* Kleinere Schriftgröße */
     line-height: 1.2; /* Engerer Zeilenabstand */
   }
   .logo {
@@ -174,6 +178,7 @@ body {
   .container4 {
     flex-wrap: wrap; /* Inhalte umbrechen */
     justify-content: center; /* Inhalte zentrieren */
+    line-height: 1.5;
   }
   .menu {
     margin-right: 10px; /* Weniger Abstand */
@@ -187,5 +192,10 @@ body {
     height: auto; /* Höhe flexibel */
     padding: 10px; /* Abstand innerhalb des Fußbereichs */
     text-align: center; /* Zentrierter Inhalt */
+  }
+  .marco {
+    font-size: 20px;
+    height: auto;
+    text-align: center;
   }
 }
